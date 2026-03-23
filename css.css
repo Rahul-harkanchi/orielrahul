@@ -1,0 +1,70 @@
+/* Footer Section Styling */
+.contact-footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 60px 20px 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-content h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.footer-content p {
+    font-size: 1.1rem;
+    color: #cccccc;
+    margin-bottom: 30px;
+}
+
+/* Social Icons Container */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+/* Individual Icon Styling */
+.icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #333333;
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+/* Hover Effects with Brand Colors */
+.icon:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.icon.email:hover { background-color: #EA4335; }      /* Gmail Red */
+.icon.linkedin:hover { background-color: #0077B5; }   /* LinkedIn Blue */
+.icon.github:hover { background-color: #6e5494; }     /* GitHub Purple */
+.icon.twitter:hover { background-color: #000000; }    /* X Black */
+.icon.fiverr:hover { background-color: #1DBF73; }     /* Fiverr Green */
+
+/* Bottom Copyright Bar */
+.footer-bottom {
+    border-top: 1px solid #333333;
+    padding-top: 20px;
+    color: #888888;
+    font-size: 0.9rem;
+}
+
+
+#mail{
+    background-image: url();
+}
+
